@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DetailBerita">
+
+    <ImageView
+        android:src="@drawable/img1"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/textCostum"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/imgDetail"
+        android:id="@+id/namaDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/textCostum"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/namaDetail"
+        android:id="@+id/umurDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        style="@style/textCostum"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/umurDetail"
+        android:id="@+id/tvKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
